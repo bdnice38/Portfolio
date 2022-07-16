@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my profile</title>
+    <!-- fontawesome cdm -->
+    <script src="https://use.fontawesome.com/66c3d8f1bc.js"></script>
+    <!--css for mobile-->
+    <link rel="stylesheet" href="style.css">
+     <!--css for desktop-->
+     <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+    <style>
+      .top-pic{
+          height: 100px;
+          width: 100px;
+      }
+      .weather-top{
+        height: 100px;
+          width: 100px;
+      }
+      .weather-bottom{
+        height: 100px;
+          width: 100px;          
+        }
+        .icon{
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body >
+    <!--navbar starts here-->
+    <div class="navbar">
+        <div class="nav-logo col-2">
+            <img class="top-pic" src="image/pic.png">
+        </div>
+        <div class="nav-heading col-4">
+            <h1>Md. Asaduzzaman</h1>
+        </div>
+        <div class="nav-menu col-6">
+            <a href="#home-id">Home</a>
+            <a href="#about-me-id">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact-id">Contact</a>
+        </div>
+    </div>
+    <!-- navbar ends here -->
+
+    <!-- profile starts here -->
+
+    <div class="profile" id="home-id">
+        <img class="weather-top" src="image/weather.svg">
+        <div class="intro">
+                <h1>I am a B.Sc. student <br> & <br>Blogger</h1>
+                <p>Hi! My name is Md. Asaduzzaman . Welcome to my personal page that I've design to showcase my skills.</p>
+        </div>
+
+        <img class="weather-bottom" src="image/weather.svg">
+    </div>
+    <!-- profile ends here -->
+
+    <!-- about me starts here -->
+    <div class="about-me" id="about-me-id">
+        <h2>ABOUT ME</h2>
+        <hr class="dotted-hr">
+        <div class="about-me-image col-6">
+            <img src="image/asad.jpg">
+        </div>
+
+        <div class="about-me-desc col-6">
+            <p>I always try to develop myself as "a blogger and freelancer with best expertise".</p>
+            <hr class ="aboutme-hr">
+            <p>Name: Md. Asaduzzaman</p>
+            <hr class ="aboutme-hr">
+            <p>Address: Shibgonj,Chapai-Nawabgonj</p>
+            <hr class ="aboutme-hr">
+            <p>Phone: +8801756908538</p>
+            <hr class ="aboutme-hr">
+            <p>Email: <a href="bdnice38@gmail.com">bdnice38@gmail.com</a></p>
+        </div>
+
+    </div>
+    <!-- about me ends here -->
+
+    <!-- skills starts here -->
+        <div class="professional col-12" id="skills">
+            <div class="work experience col-4">
+                <div class="card">
+                    <div class="card-icon">
+                        <img class="rounded-img" src="image/workk.webp">
+                    </div>
+                    <div class="card-title">
+                        <h2>WORK EXPERIENCE</h2>
+                    </div>
+                    <div class="card-desc">
+                        <ol>
+                            <li>
+                                <strong>Data Entry Operator</strong><br>
+                                From March, 2020 till now I am working with different Microsoft Office Applications.
+                            </li>
+                            <hr>
+                            <li>
+                                <strong>Adobe Expert</strong><br>
+                                I am very much comfortable with image editing,design at adobe photoshop. 
+                            </li>
+                            <hr>
+                            <li>
+                                <strong>Blogger</strong><br>
+                                I have much passion at blogging.
+                            </li>
+                            
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education col-4">
+                    <div class="card">
+                        <div class="card-icon">
+                            <img class="rounded-img" src="image/edu.jpg">
+                        </div>
+                        <div class="card-title">
+                            <h2>EDUCATION</h2>
+                        </div>
+                        <div class="card-desc">
+                            <ol>
+                                <li>
+                                    <strong>B.Sc. in Zoology</strong><br>
+                                    Undergraduate<br>
+                                    Adina Fazlul Haque Govt. College<br>
+                                    6340,Shibgonj, Chapai-Nawabgonj<br>
+                                </li>
+                                
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            <div class="skill col-4">
+                    <div class="card">
+                        <div class="card-icon">
+                            <img class="rounded-img" src="image/bulbb.png">
+                        </div>
+                        <div class="card-title">
+                            <h2>SKILLS</h2>
+                        </div>
+                        <div class="skill-container">
+                           <ul>
+                               <li class="html">MS Office</li>
+                               <li class="css">Adobe Photoshop</li>
+                               <li class="bootstrap">Blogging</li>
+                               
+
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- skills ends here -->
+    <!-- contact starts here -->
+    <div class="contact col-12" id="contact-id">
+
+        <div class="contact-form col-6">
+
+            <h2>CONTACT ME</h2>
+            <hr class="dotted-hr">
+            <form action="mainto:bdnice38@gmail.com" method="post" enctype="text/plain">
+                <p><input type="text" placeholder="Your name" name="Name "></p>
+                <p><input type="email" placeholder="Your email" name="Email "></p>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your message here"></textarea>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div class="link col-6">
+
+            <h2>More Ways to Contact</h2>
+            <hr class="dotted-hr">
+            <div class="media-button">
+                
+                <button style="color: rgb(5, 90, 201)" onclick="window.open('https://facebook.com/Bdnice38')"><i class="fa fa-facebook-official"></i></button>
+                <button style="color: rgb(33, 148, 214)" onclick="window.open('https://t.me/Bdnice38')"><i class="fa fa-telegram" aria-hidden="true"></i></button>
+                <button style="color: rgb(201, 5, 5)" onclick="window.open('https://youtube.com/Bdnice38')"><i class="fa fa-youtube"></i></button>
+                <button style="color: rgb(41, 143, 207)" onclick="window.open('https://twitter.com/Bdnice38')"><i class="fa fa-twitter"></i></button>
+                <button style="color: #125688" onclick="window.open('https://instagram.com/Bdnice38')"><i class="fa fa-instagram"></i></button>
+            </div>
+           
+        </div>
+
+    </div>
+
+    <!-- contact ends here -->
+    <!-- footer starts here -->
+    <div class="footer col-12">
+            <div class="footer-menu col-6">
+                <a href="#home-id">Home</a>
+                <a href="#about-me-id">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact-id">Contact</a>
+            </div>
+            <div class="footer-desc col-6">
+                &copy; Developed by Asad 2022.
+            </div>
+    </div>
+    <!-- footer ends here -->
+</body>
+</html>
